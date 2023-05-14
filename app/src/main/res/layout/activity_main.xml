@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#757373">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <LinearLayout
+            android:id="@+id/madagascar"
+            android:layout_width="54dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:background="#F44336" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:background="#007E3A" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/thailand"
+            android:layout_width="54dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="#F44336" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="#3F51B5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="#3F51B5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="#F44336" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/denmark"
+            android:layout_width="54dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15.3dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    android:background="#F44336" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5.4dp"
+                    android:background="#F44336" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="54dp"
+                android:layout_height="15.3dp"
+                android:layout_marginTop="5.4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    android:background="#F44336" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5.4dp"
+                    android:background="#F44336" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+
+            android:id="@+id/switzerland"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:background="#D61B1B"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="6dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:background="@color/white" />
+
+            <LinearLayout
+                android:layout_width="24dp"
+                android:layout_height="6dp"
+                android:layout_gravity="center"
+                android:background="@color/white" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="124dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/austria"
+            android:layout_width="54dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="#D61B1B" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="#D61B1B" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/poland"
+            android:layout_width="54dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:background="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:background="#D61B1B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/italy"
+            android:layout_width="54dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#08E439" />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D61B1B" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/colombia"
+            android:layout_width="54dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:background="#FFEB3B" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@color/purple_700" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="#D61B1B" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/load_image_button"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/load_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

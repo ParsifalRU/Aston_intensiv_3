@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aston_intensiv_3</string>
+    <string name="load_image">Load Image</string>
+    <string name="input_text">Вставьте ссылку</string>
+    <string name="error_message">Ссылка не найдена или доступ к ресурсу ограничен</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="logtag">LOGTAG</string>
+    <string name="https">https:</string>
+</resources>
